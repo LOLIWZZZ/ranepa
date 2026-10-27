@@ -1,0 +1,4 @@
+node_modules/
+preview/
+.preview-tmp/
+.DS_Store

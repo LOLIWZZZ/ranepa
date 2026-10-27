@@ -1,0 +1,26 @@
+{
+  "name": "ranepa-student-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RANEPA Student — веб-приложение (PWA) для iPhone: расписание, задания, посещаемость, оценки, оплата. Неофициальное.",
+  "scripts": {
+    "build": "node build.mjs",
+    "icons": "node scripts/icons.mjs",
+    "typecheck": "tsc --noEmit -p . && tsc --noEmit -p tests",
+    "test": "tsx --test \"tests/**/*.test.ts\"",
+    "serve": "npx serve dist"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "esbuild": "0.28.2",
+    "sharp": "0.35.4",
+    "tsx": "4.23.12",
+    "typescript": "6.0.3"
+  }
+}

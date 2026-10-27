@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>RANEPA Student</title>
+    <meta name="description" content="Расписание, дедлайны, посещаемость, оценки и оплата обучения для студентов РАНХиГС. Неофициальное приложение." />
+    <meta name="theme-color" content="#f4f5f8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e1015" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="RANEPA" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..800&display=swap" />
+    <style>
+      html,body{background:#f4f5f8}
+      @media (prefers-color-scheme:dark){html:not([data-theme=light]),html:not([data-theme=light]) body{background:#0e1015}}
+      html[data-theme=dark],html[data-theme=dark] body{background:#0e1015}
+    </style>
+    <script>
+      try{var d=JSON.parse(localStorage.getItem('ranepa-student:data:v1')||'null');var t=d&&d.settings&&d.settings.theme;if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}
+    </script>
+    <link rel="stylesheet" href="assets/app-CCSAFWG3.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Для работы приложения включите JavaScript в настройках Safari.</noscript>
+    <script src="assets/app-SSDC2EBX.js" defer></script>
+  </body>
+</html>
